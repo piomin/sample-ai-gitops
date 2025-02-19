@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sample-ai-database-config
+data:
+  VECTORDB_HOST: "sample-ai-database"
+  VECTORDB_PORT: "8000"
